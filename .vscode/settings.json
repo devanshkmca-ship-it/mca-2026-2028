@@ -1,0 +1,12 @@
+{
+  "C_Cpp.default.compilerPath": "C:/Users/IT00021/mingw64/bin/gcc.exe",
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\Users\\IT00021\\git\\cmd;C:\\Users\\IT00021\\mingw64\\bin;${env:PATH}"
+  },
+  "code-runner.executorMap": {
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true
+}
